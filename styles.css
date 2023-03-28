@@ -16,7 +16,6 @@ html{
 .header{
     width: 100%;
     height: 100vh;
-    /* background: url("https://i.ibb.co/0DMMH4J/Untitled-design.png" ); */
     background: #171a26;
     background-size: cover;
     background-position: center;
@@ -428,7 +427,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     .header{
-        /* background-image: url("https://i.ibb.co/56W8zDc/phone-size-img.png"); */
+        
     }
     .header-text{
         margin-top: 100%;
