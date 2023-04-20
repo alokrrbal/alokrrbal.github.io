@@ -19,6 +19,8 @@ html{
     background: #171a26;
     background-size: cover;
     background-position: center;
+
+    
 }
 .container{
     padding: 10px 10%;
@@ -264,41 +266,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
-.layer{
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#63dd17b2);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
-}
-.layer h3{
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.layer a {
-    margin-top: 20px;
-    color: #ff004f;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    
-}
+
 
 .work:hover img{
 
@@ -323,26 +291,100 @@ nav ul li a:hover::after{
     background: #64DD17;
 
 }
-.project-tech-stack{
+
+
+/* new codes */
+
+.border-card{
+    box-shadow: rgba(239, 6, 6, 0.4) 0px 0px 0px 2px, rgba(9, 122, 251, 0.65) 0px 4px 6px -1px, rgba(254, 4, 4, 0.766) 0px 1px 0px inset;
+    padding: 20px 10px;
+}
+
+.project-title2{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 3px;
+    color: #4CAF50;
+    opacity: 90%;
+}
+.pro-desc{
+    width: 100%;
+    /* border: 1px solid red; */
     margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: 22px;
+    opacity: 80%;
 }
-.prTec-tit{
-    color: red;
-}
-.proLogoBox{
+
+.proGitBox{
     display: flex;
+    /* border: 1px solid red; */
+    margin-top: 20px;
     justify-content: space-between;
 }
-.proLogoBox a{
-    margin-left: 20px;
+
+.eyeBox{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    opacity: 80%;
+}
+.eyeBox i{
+    font-size: 50px;
+    border-radius:60px;
 }
 
+.eyeBox i:hover{
+    background-color: #4CAF50;
+}
 
+.gitBox{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    opacity: 80%;
+}
 
+.gitBox i{
+    font-size: 50px;
+    border-radius: 60px;
+}
+
+.gitBox i:hover{
+    background-color: #4CAF50;
+}
+
+.techBox{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.techBoxtit{
+    color: #E91E63;
+    letter-spacing: normal;
+}
+
+.techBoxskill{
+    font-size: 13px;
+}
+.eyeBox a{
+    color: #fff;
+}
+.gitBox a{
+    color: white;
+}
 
 /* -------COntact------- */
 .contact{
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .contact-left{
     flex-basis: 35%;
