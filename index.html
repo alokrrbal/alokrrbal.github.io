@@ -8,6 +8,10 @@
   <link rel="icon" href="./Project-image/iconLogo.png" type="image/icon type">
   <title>Alok BAl | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
   <script src="https://kit.fontawesome.com/83bc07f1f1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -48,16 +52,16 @@
   </div>
 
   <!-- -----------ABout----------  -->
-
+<section class="about section" id="about">
   <div class="about" id="scAbout">
     <div class="container">
       <div class="row">
         <div class="about-col-one">
-          <img src="https://i.ibb.co/rMT5Fjd/alok-about-img.png" />
+          <img class="home-img" src="https://i.ibb.co/rMT5Fjd/alok-about-img.png" />
         </div>
         <div class="about-col-two">
           <h1 class="sub-title">About Me</h1>
-          <p>
+          <p id="user-detail-intro">
             A Passionate Full Stack Web Developer who can write
             production-ready code using React.js, Node.js, HTML, JavaScript,
             Chakra UI, and CSS. Passionate about coding, and managing the
@@ -81,10 +85,12 @@
               </li>
             </ul>
           </div>
+          <a id="resume-link-2" href="resume/Alok_Bal_Resume.pdf" download class="btn btn2"><button id="resume-button-2">Download Resume</button></a>
         </div>
       </div>
     </div>
   </div>
+</section>
 
   <!-- ----Skills----- -->
 
@@ -200,27 +206,40 @@
 
   <!-- -------GIT ACTIVITY------- -->
 
-  <div class="git-activity">
-
-    <h1 class="git-tit">Github <span>Activity</span></h1>
-
-    <div class="commit-img"><img src="https://i.ibb.co/0msLFk2/git-commits-img.png" alt=""></div>
-
-    <div class="commit-img-two">
-      <div><img
-          src="https://github-readme-streak-stats.herokuapp.com?user=alokrrbal&theme=merko&hide_border=true&border_radius=10"
-          alt=""></div>
-      <div><img
-          src="https://camo.githubusercontent.com/1eb9fd556a8d2e8f36422c679697541d66853a89828a98d02480be0b19c0ddb4/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616c6f6b727262616c267468656d653d6d65726b6f26686964655f626f726465723d66616c736526696e636c7564655f616c6c5f636f6d6d6974733d66616c736526636f756e745f707269766174653d66616c7365"
-          alt=""></div>
+  <section class="react-activity-calendar">
+    <div class="heading">
+      <h2>GitHub Statistics</h2>
+      <span>& Calender</span>
     </div>
-  </div>
+    <br>
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
+    <br>
+    <div id="git-stat">
+      <div>
+        <img id="github-streak-stats"
+          src="https://github-readme-streak-stats.herokuapp.com?user=alokrrbal&theme=react&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+          alt="streak-stat" />
+        <br>
+        <img id="github-stats-card"
+          src="https://github-readme-stats.vercel.app/api?username=alokrrbal&count_private=true&theme=react"
+          alt="stat-card" />
+      </div>
+      <div>
+        <img id="github-top-langs"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=alokrrbal&theme=react"
+          alt="top_languages" />
+      </div>
+    </div>
+  </section>
 
   <!-- -----protfolio---------->
 
   <div class="portfolio" id="scProjects">
     <div class="container">
-      <h1 class="sub-title">My <span class="sub-title-2">Work</span></h1>
+      <h1 class="sub-title">My <span class="sub-title-2">Works</span></h1>
 
       <div class="work-list">
 
@@ -228,7 +247,7 @@
         <div class="work project-card border-card">
           <img src="https://i.ibb.co/hM03hzd/tata-1mg-pro-ss.png" alt="" />
 
-          <div class="project-title2">Tata 1MG</div>
+          <div class="project-title2 project-title">Tata 1MG</div>
 
           <div class="pro-desc">Tata 1mg is a leading Indian e-commerce platform that specializes in providing
             healthcare products and services. Its offering convenience, affordability, and accessibility all in one
@@ -249,7 +268,7 @@
         <div class="work project-card border-card">
           <img src="https://i.ibb.co/4mT4Vvk/shopo-mini-ss.png" alt="" />
 
-          <div class="project-title2">Mini Shopping App</div>
+          <div class="project-title2 project-title">Mini Shopping App</div>
 
           <div class="pro-desc">Mini Shopping Is a React Mini project Where You can sort and filtor accordingly and this
             both functionality can work together & Only Admin Can Delete the product ,edite the product and add a new
@@ -273,7 +292,26 @@
         <div class="work project-card border-card">
           <img src="https://i.ibb.co/2SRXxK7/dell-pro-ss.png" alt="" />
 
-          <div class="project-title2">Dell.com</div>
+          <div class="project-title2 project-title">Dell.com</div>
+
+          <div class="pro-desc">Dell.com is an e-commerce platform that offers a wide range of technology products, including laptops, desktops, monitors, servers, storage solutions, and accessories.</div>
+
+          <div class="techBox"><span class="techBoxtit">Tech Stack : </span> <span class="techBoxskill">HTML | CSS |
+            JavaScript </span></div>
+
+          <div class="proGitBox">
+            <div class="eyeBox"><a href="https://glistening-cactus-137633.netlify.app" target="_blank"><i
+                  class="fa-sharp fa-solid fa-eye"></i></a></div>
+            <div class="gitBox"><a href="https://github.com/alokrrbal/straight-turkey-1580"
+                target="_blank"><i class="fa-brands fa-github"></i></a></div>
+          </div>
+        </div>
+
+
+        <div class="work project-card border-card">
+          <img src="https://i.ibb.co/2SRXxK7/dell-pro-ss.png" alt="" />
+
+          <div class="project-title2 project-title">Dell.com</div>
 
           <div class="pro-desc">Dell.com is an e-commerce platform that offers a wide range of technology products, including laptops, desktops, monitors, servers, storage solutions, and accessories.</div>
 
@@ -310,7 +348,7 @@
                     class="fa-brands fa-linkedin"></i></a>
               </div>
 
-              <a id="resume-link-2" href="resume/Alok_Bal_Resume.pdf" download class="btn btn2">Download Resume</a>
+              <a href="resume/Alok_Bal_Resume.pdf" download class="btn btn2">Download Resume</a>
             </div>
             <div class="contact-right">
               <form>
@@ -327,7 +365,16 @@
           <p>© Thank You For Visiting My Portfolio 💙💙</p>
         </div>
       </div>
+
+      <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+      <script>
+          GitHubCalendar(".calendar", "alokrrbal;", { responsive: true });
+      </script>
+
 </body>
+
+
 
 
 <script>
