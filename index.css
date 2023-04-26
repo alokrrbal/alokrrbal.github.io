@@ -772,3 +772,14 @@ span{
     width: 0;
     opacity: 0;
 }
+/* new codes */
+.contDiv p{
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    color: var(--main-color);
+}
+.contDiv i{
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
