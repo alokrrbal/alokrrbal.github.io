@@ -79,6 +79,6 @@ ScrollReveal().reveal('.home-content h3,.home-content p, .about-content p, about
 //opening resum
 
 
-document.getElementById('resume-link-1').addEventListener("click", () => {
+document.getElementById('resume-button-1').addEventListener("click", () => {
   window.open("https://drive.google.com/file/d/1I7WJjZsAarVpxKsTsWO-SyuFsGZL6rcU/view?usp=share_link", "_blank");
 });
