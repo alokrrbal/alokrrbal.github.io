@@ -353,6 +353,8 @@ span{
 
 .portfolio{
     padding-bottom: 10rem;
+    /* border: 1px solid red;
+    margin-bottom: -20px; */
 }
 
 .portfolio h2{
@@ -762,6 +764,21 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+
+
+    .react-activity-calendar {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+      }
+      .calendar div{
+        width: 100%;
+        display: block;
+     }
+     #git-stat > div > img {
+        width: 90%;
+        background-color: black;
+      }
 }
 
 
@@ -783,3 +800,15 @@ span{
     padding-right: 1rem;
 }
 
+.react-activity-calendar {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top:30px;
+  }
+  
+  #git-stat > div > img {
+    width: 55%;
+    background-color: black;
+  }
+  
