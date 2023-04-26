@@ -106,11 +106,11 @@ section{
     padding: 10rem 7% 2rem;
 }
 
-.home{
+.home2{
     display: flex;
     align-items: center;
 }
-.home .home-content{
+.home2 .home-content{
     max-width: 44rem;
 }
 .home-content h3{
@@ -167,7 +167,7 @@ section{
     border-color: var(--main-color);
 }
 
-.home .profession-container{
+.home2 .profession-container{
     position: absolute;
     top: 50%;
     right: 0;
@@ -178,7 +178,7 @@ section{
     pointer-events: none;
 }
 
-.home .profession-container .profession-box{
+.home2 .profession-container .profession-box{
     position: absolute;
     top: 0;
     right: 0;
@@ -210,7 +210,7 @@ section{
     }
 }
 
-.home .profession-box  .profession{
+.home2 .profession-box  .profession{
     position: absolute;
     left: 0;
     display: flex;
@@ -223,31 +223,31 @@ section{
     padding: 13px o;
 }
 
-.home .profession-box  .profession:nth-child(1)i{
+.home2 .profession-box  .profession:nth-child(1)i{
     margin-right: 15px;
 }
 
-.home .profession-box  .profession:nth-child(2),
-.home .profession-box  .profession:nth-child(4){
+.home2 .profession-box  .profession:nth-child(2),
+.home2 .profession-box  .profession:nth-child(4){
     padding-bottom: 20px;
 }
 
-.home .profession i{
+.home2 .profession i{
     font-size: 3.8rem;
 }
 
-.home .profession h3{
+.home2 .profession h3{
     font-size: 3.2rem;
     line-height: 1;
     font-weight: 600;
 }
-.home .profession-box .circle{
+.home2 .profession-box .circle{
     width: 560px;
     height: 560px;
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
-.home .profession-container .overlay{
+.home2 .profession-container .overlay{
     position: absolute;
     top: 0;
     right: 0;
@@ -424,27 +424,27 @@ span{
 }
 /* contact */
 
-.contact h2{
+.contact2 h2{
     margin-bottom: 3rem;
     
 }
 
-.contact form{
+.contact2 form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.contact form .input-box{
+.contact2 form .input-box{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
-.contact form .input-box input,
-.contact form textarea{
+.contact2 form .input-box input,
+.contact2 form textarea{
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
@@ -456,15 +456,15 @@ span{
 
 }
 
-.contact form .input-box input{
+.contact2 form .input-box input{
     width: 49%;
 }
-.contact form textarea{
+.contact2 form textarea{
     resize: none;
 }
 
 
-.contact form .btn{
+.contact2 form .btn{
     margin-top: 2rem;
 }
 
@@ -512,16 +512,16 @@ span{
         font-size: 55%;
     }
 
-    .home .profession-container{
+    .home2 .profession-container{
         height: 85.8rem;
     }
 
-    .home .profession-container .profession-box{
+    .home2 .profession-container .profession-box{
         right: -12rem;
         height: 85.8rem;
     }
 
-    .home .profession-container .overlay{
+    .home2 .profession-container .overlay{
         right: -9rem;
     }
 }
@@ -535,11 +535,11 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
-    .home .profession-container .profession-box{
+    .home2 .profession-container .profession-box{
         right: -22rem;
     }
 
-    .home .profession-container .overlay{
+    .home2 .profession-container .overlay{
         right: -15rem;
     }
 }
@@ -554,26 +554,28 @@ span{
         background: var(--main-color);
         opacity: .7;
     }
-    .home .home-content{
+    .hhome2 .home-content{
         max-width: 50rem;
     }
-    .home .profession-container .profession-box{
+    .hhome2 .profession-container .profession-box{
         right: -45rem;
     }
-    .home .profession-container .overlay{
+    .hhome2 .profession-container .overlay{
         right: -39.5rem;
     }
     .services,
     .portfolio{
         padding-bottom: 7rem;
     }
-    .contact{
+    .contact2{
         min-height: auto;
     }
     .footer{
         padding: 2rem 3%;
     }
 }
+/* 
+768px */
 
 @media (max-width: 768px){
     #menu-icon{
@@ -619,7 +621,7 @@ span{
         display: none;
     }
 
-    .home{
+    .home2{
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
@@ -633,13 +635,13 @@ span{
     .home-content .social-media a{
         margin: 2.5rem .75rem 3rem;
     }
-    .home .profession-container{
+    .home2 .profession-container{
         left: 0;
         width: 100%;
         height: 100%;
     }
 
-    .home .profession-container .profession-box{
+    .home2 .profession-container .profession-box{
         position: fixed;
         top: 60%;
         left: 0;
@@ -648,38 +650,38 @@ span{
 
     }
 
-    .home .profession-box .profession{
+    .home2 .profession-box .profession{
         padding: 0 13px;
         left: auto;
         transform-origin: 0;
 
     }
-    .home .profession-box .profession:nth-child(1){
+    .home2 .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-120px,-210px);
 
     }
 
-    .home .profession-box .profession:nth-child(1) i{
+    .home2 .profession-box .profession:nth-child(1) i{
         margin-right: 0;
     }
 
-    .home .profession-box .profession:nth-child(2){
+    .home2 .profession-box .profession:nth-child(2){
         transform: rotate(0deg) translate(0,-335px);
     }
-    .home .profession-box .profession:nth-child(3){
+    .home2 .profession-box .profession:nth-child(3){
         transform: rotate(90deg) translate(-115px,-450px);
     }
-    .home .profession-box .profession:nth-child(4){
+    .home2 .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-220px,-335px);
     }
-    .home .profession-box .circle{
+    .home2 .profession-box .circle{
         position: fixed;
         width: 670px;
         height: 670px;
         z-index: -1;
     }
 
-    .home .profession-container .overlay{
+    .home2 .profession-container .overlay{
         position: fixed;
         top: 70rem;
         left: 50%;
@@ -725,23 +727,23 @@ span{
     #darkMode-icon{
         right: 6rem;
     }
-    .home{
+    .home2{
         padding: 0 3% 30rem;
     }
-    .home .profession-box .profession:nth-child(1){
+    .home2 .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-110px,-220px);
     }
-    .home .profession-box .profession:nth-child(2){
+    .home2 .profession-box .profession:nth-child(2){
         transform: rotate(0deg) translate(5px,-335px);
     }
-    .home .profession-box .profession:nth-child(3){
+    .home2 .profession-box .profession:nth-child(3){
         transform: rotate(90deg) translate(-105px,-440px);
     }
-    .home .profession-box .profession:nth-child(4){
+    .home2 .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-210px,-335px);
     }
 
-    .contact form .input-box input{
+    .contact2 form .input-box input{
         width: 100%;
 
     }
@@ -762,3 +764,11 @@ span{
     }
 }
 
+
+
+/* //temporary things */
+
+.tempBtn{
+    width: 0;
+    opacity: 0;
+}
