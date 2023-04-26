@@ -74,3 +74,11 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img img , .services-container, .portfolio-box, contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3,.home-content p, .about-content p, about-content', { origin: 'right' });
+
+
+//opening resum
+
+
+document.getElementById('resume-link-1').addEventListener("click", () => {
+  window.open("https://drive.google.com/file/d/1I7WJjZsAarVpxKsTsWO-SyuFsGZL6rcU/view?usp=share_link", "_blank");
+});
