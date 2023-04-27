@@ -343,11 +343,6 @@ span {
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
-  /* border-bottom: 2px solid var(--main-color);
-  box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  /* border: 1px solid black; */
-
-
   box-shadow: 0 .1rem .5rem rgba(0,0,0,.7);
   border-top: .2rem solid #754ef9;
   border-bottom: .2rem solid #754ef9;

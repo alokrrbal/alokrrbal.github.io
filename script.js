@@ -37,3 +37,17 @@ document.getElementById('resume-link-2').addEventListener("click", () => {
   window.open("https://drive.google.com/file/d/1FBZAy8pC3V-T4tg1fsbfBvjM85NdXy2L/view?usp=sharing", "_blank");
 });
 
+
+//scrool reveal
+
+ScrollReveal({ 
+  reset: false,
+  distance: '80px',
+  duration:2000,
+  delay:200
+});
+
+ScrollReveal().reveal('.home-text, .heading', { origin: 'top' });
+ScrollReveal().reveal('.skillCOnt, .project-card, .contact-form, .homeGif', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .calendar, .gitSt2', { origin: 'left' });
+ScrollReveal().reveal('.about-text, .footer-social, .gitSt', { origin: 'right' });
