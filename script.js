@@ -33,7 +33,6 @@ document.getElementById('resume-link-1').addEventListener("click", () => {
 });
 
 document.getElementById('resume-link-2').addEventListener("click", () => {
-  // console.log("OPENinig.....");
   window.open("https://drive.google.com/file/d/1FBZAy8pC3V-T4tg1fsbfBvjM85NdXy2L/view?usp=sharing", "_blank");
 });
 
