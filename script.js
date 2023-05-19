@@ -39,15 +39,15 @@ document.getElementById('resume-link-2').addEventListener("click", () => {
 
 //scrool reveal
 
-ScrollReveal({ 
-  reset: false,
-  distance: '80px',
-  duration:2000,
-  delay:200
-});
+// ScrollReveal({ 
+//   reset: false,
+//   distance: '80px',
+//   duration:2000,
+//   delay:200
+// });
 
-// ScrollReveal().reveal('.home-text, .heading', { origin: 'top' });
-ScrollReveal().reveal('.skillCOnt, .project-card, .contact-form', { origin: 'bottom' });
-// ScrollReveal().reveal('.skillCOnt, .project-card, .contact-form, .homeGif', { origin: 'bottom' });
-ScrollReveal().reveal('.home-img, .calendar, .gitSt2', { origin: 'left' });
-ScrollReveal().reveal('.about-text, .footer-social, .gitSt', { origin: 'right' });
+// // ScrollReveal().reveal('.home-text, .heading', { origin: 'top' });
+// ScrollReveal().reveal('.skillCOnt, .project-card, .contact-form', { origin: 'bottom' });
+// // ScrollReveal().reveal('.skillCOnt, .project-card, .contact-form, .homeGif', { origin: 'bottom' });
+// ScrollReveal().reveal('.home-img, .calendar, .gitSt2', { origin: 'left' });
+// ScrollReveal().reveal('.about-text, .footer-social, .gitSt', { origin: 'right' });
