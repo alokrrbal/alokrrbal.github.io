@@ -25,8 +25,10 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+darkmode.classList.replace("bx-moon", "bx-sun");
+document.body.classList.add("active");
 
-      
+
 
 document.getElementById('resume-link-1').addEventListener("click", () => {
   window.open("https://drive.google.com/file/d/1J5y4cAvjHh3Y2U_wezpqRIng6XtvE0On/view", "_blank");
@@ -39,7 +41,7 @@ document.getElementById('resume-link-2').addEventListener("click", () => {
 
 //scrool reveal
 
-// ScrollReveal({ 
+// ScrollReveal({
 //   reset: false,
 //   distance: '80px',
 //   duration:2000,
